@@ -1,0 +1,540 @@
+2022/01/16 15:29:30 [error] 12264#11444: *1 CreateFile() "C:/nginx/html/50" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /50 HTTP/1.1", host: "localhost:8085"
+2022/01/16 15:29:36 [error] 12264#11444: *1 CreateFile() "C:/nginx/html/php" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /php HTTP/1.1", host: "localhost:8085"
+2022/01/16 16:10:33 [error] 13344#11288: *2 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8085", referrer: "http://127.0.0.1:8085/"
+2022/01/16 16:16:28 [error] 12948#9884: *4 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected 'i' (T_STRING), expecting ';' in C:\nginx\html\khital.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /khital.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8085"
+2022/01/16 16:16:52 [error] 12948#9884: *4 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ';' in C:\nginx\html\khital.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /khital.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8085"
+2022/01/16 16:16:52 [error] 12948#9884: *4 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ';' in C:\nginx\html\khital.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /khital.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8085"
+2022/01/16 16:20:41 [error] 12948#9884: *11 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8085", referrer: "http://localhost:8085/info.php"
+2022/01/25 16:12:22 [error] 8120#10868: *1 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8085", referrer: "http://localhost:8085/"
+2022/01/25 16:12:29 [error] 8120#10868: *1 CreateFile() "C:\nginx/html/coba" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /coba HTTP/1.1", host: "localhost:8085"
+2022/01/25 16:23:51 [error] 8120#10868: *10 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 1 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:24:59 [error] 8120#10868: *16 FastCGI sent in stderr: "PHP Notice:  Array to string conversion in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 1 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:33:30 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr 
+2022/01/25 16:33:30 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:33:30 [error] 8120#10868: *26 FastCGI sent in stderr: "  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10" while reading upstream, client: 127.0.0.1, serv
+2022/01/25 16:33:51 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr 
+2022/01/25 16:33:51 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:33:51 [error] 8120#10868: *26 FastCGI sent in stderr: "  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Array to string conversion in C:\ng
+2022/01/25 16:33:52 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr 
+2022/01/25 16:33:52 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:33:52 [error] 8120#10868: *26 FastCGI sent in stderr: "  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Array to string conversion in C:\ng
+2022/01/25 16:33:52 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr 
+2022/01/25 16:33:52 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:33:52 [error] 8120#10868: *26 FastCGI sent in stderr: "  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Array to string conversion in C:\ng
+2022/01/25 16:34:09 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr 
+2022/01/25 16:34:09 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:09 [error] 8120#10868: *26 FastCGI sent in stderr: "  Array to string conversion in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 1 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 25" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:10 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr 
+2022/01/25 16:34:10 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:10 [error] 8120#10868: *26 FastCGI sent in stderr: "  Array to string conversion in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 1 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 25" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:10 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr 
+2022/01/25 16:34:10 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:10 [error] 8120#10868: *26 FastCGI sent in stderr: "  Array to string conversion in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 1 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 25" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:11 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr 
+2022/01/25 16:34:11 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:11 [error] 8120#10868: *26 FastCGI sent in stderr: "  Array to string conversion in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 1 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 25" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:11 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr 
+2022/01/25 16:34:11 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:11 [error] 8120#10868: *26 FastCGI sent in stderr: "  Array to string conversion in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 1 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 25" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:11 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr 
+2022/01/25 16:34:11 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:11 [error] 8120#10868: *26 FastCGI sent in stderr: "  Array to string conversion in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 1 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 25" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:12 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr 
+2022/01/25 16:34:12 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: Arr in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:12 [error] 8120#10868: *26 FastCGI sent in stderr: "  Array to string conversion in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 1 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 25" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:47 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 1 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 1 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 12
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 12
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 13
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 13
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 1 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 10
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notic
+2022/01/25 16:34:54 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 12
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 12
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 13
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 13
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:55 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 12
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 12
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 13
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 13
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:34:55 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 12
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 12
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 13
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 13
+PHP Notice:  Undefined offset: 2 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 3 in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined offset: 4 in C:\nginx\html\SelectionSort.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:35:15 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:36:34 [error] 8120#10868: *26 FastCGI sent in stderr: "PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:42:03 [error] 8120#10868: *59 FastCGI sent in stderr: "PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Undefined variable: arr in C:\nginx\html\SelectionSort.php on line 25
+PHP Notice:  Trying to access array offset on value of type null in C:\nginx\html\SelectionSort.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 16:44:47 [error] 8120#10868: *59 FastCGI sent in stderr: "PHP Warning:  A non-numeric value encountered in C:\nginx\html\SelectionSort.php on line 25
+PHP Warning:  A non-numeric value encountered in C:\nginx\html\SelectionSort.php on line 25
+PHP Warning:  A non-numeric value encountered in C:\nginx\html\SelectionSort.php on line 25
+PHP Warning:  A non-numeric value encountered in C:\nginx\html\SelectionSort.php on line 25
+PHP Warning:  A non-numeric value encountered in C:\nginx\html\SelectionSort.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /Selectionsort.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
+2022/01/25 17:18:39 [error] 8120#10868: *100 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8085", referrer: "http://localhost:8085/Selectionsort.php"
+2022/01/26 20:43:24 [error] 848#4984: *1 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8085", referrer: "http://localhost:8085/"
+2022/01/26 20:43:29 [error] 848#4984: *1 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\nginx\html\khital.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /khital.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8085"
