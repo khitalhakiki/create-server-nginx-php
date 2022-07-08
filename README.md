@@ -5,7 +5,7 @@ server nginx-php
 
 
 2. Install PHP stable version 7.4
-  * Download Php here [Click Here](https://windows.php.net/download/).
+  * Download PHP here [Click Here](https://windows.php.net/download/).
 3. Create Bat to start and stop nginx server =
   * To Start bat =
   ``@echo off
